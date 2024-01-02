@@ -1,0 +1,727 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    background-color:#fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     
+}
+.container{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #fff;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu button{
+   padding: 10px 15px;
+   border-radius: 10px;
+   background-color: black;
+   color: #fff;
+   border: transparent;
+} 
+.toggle{
+    display: none;
+    
+}
+
+ .first-part{
+    background-color: #fff;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.navbar{
+    background-color: #fff;
+    padding: 20px 0;
+}
+ .first-container{
+    background-color:#E7E6E6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+    text-wrap: wrap;
+    
+}
+.heading h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;  
+}
+.heading button{
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+}
+.logos{
+    width: 100%;
+    background-color:#f0dc6c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.logos img{
+    height: 40px;
+}
+
+.arrivals{
+    
+    background-color: #fff;
+    display: flex;
+    padding: 30px 0;
+    margin: auto;
+}
+.arrivals h1{
+    font-size: 27px;
+    font-weight: 900;
+    
+}
+
+   /* secpart */
+
+   .second-part{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.arr{
+    display: flex;
+    justify-content: space-between;
+}
+.second-container{
+   display: flex;
+   justify-content: space-between;
+   text-wrap: wrap;
+   margin-bottom: 40px;
+} 
+.imaag{
+    height: 430px;
+    width: 320px;
+    
+}
+.img1{
+    padding: 0;
+}
+.arr p{
+    font-size: 13px;
+}
+
+/* 3rd part */
+
+
+.third-part {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   text-wrap: wrap;
+}
+.third-part img{
+    width: 50%;
+    height: 50%;
+}
+
+
+/* fourthpart */
+
+.fourth-part{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+   .fourth-container{
+    display: flex;justify-content: space-around;
+   } 
+
+.text-part{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.phone{
+    height: 480px;
+    width: 500px;
+}
+.playstore{
+    display: flex;
+    gap: 20px;
+}
+
+.playstore img{
+    width: 100px;
+}
+
+
+.fifth-part{
+display: flex;
+justify-content: center;
+width: 100%;
+background-color: black;
+}
+
+
+
+.fifth-container{
+    background-color: black;
+    width: 1263px;
+    text-wrap: wrap;
+    color: #fff;
+    display: flex;
+    padding: 90px 0;
+    justify-content: space-around;
+    align-items: start;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+          
+    }
+     a{
+     color: lightgray;
+       text-decoration: none;
+    }
+    .alllogo img{
+        width: 150px;
+    }
+   
+    /* .part1,.part2,.part3,.part4{
+        font-size: 15px;
+        padding: 0 2px;
+    } */
+/* ---------------------------------------- */
+
+
+
+ @media(max-width:1125px){
+
+    .container{
+        width: 965px;
+   
+    }
+    .imaag{
+        height: 410px;
+        width: 280px;
+    }
+    ul {
+        gap: 20px;
+}
+ }
+    @media(max-width:1023px){
+        .container{
+            width: 870px;
+        }
+        .menu button{
+            padding: 8px 15px;
+        }
+        .second-part h1{
+            font-size: 25px;
+            padding: 5px;
+        }
+        .arrivals h1{
+            font-size: 25px;
+        }
+        .imaag{
+            height: 360px;
+            width: 250px;
+        }
+        .alllogo img{
+            width: 120px;
+        }
+       
+        .part1,.part2,.part3,.part4{
+            font-size: 12px;
+        }
+        .part1 h1{
+            font-size: 20px;
+        }
+        .fifth-container{
+            padding: 70px 0;
+        }
+        ul{
+            gap: 18px;
+        }
+
+    }
+   @media(max-width:933px){
+        .container{
+            width: 800px;
+        }
+        .toggle{
+        display: flex;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logos img{
+        height: 30px;
+    }
+    .arrivals h1{
+        font-size: 22px;
+    }
+    .arr img{
+        width: 18px;
+    }
+    .img1 h3{font-size: 16px;}
+    .img1 p{font-size: 12px;}
+
+
+.text-part h1{
+    font-size: 20px;
+ }
+ .phone{
+    height: 380px;
+    width: 400px;
+}
+.playstore img{
+    width: 80px;
+}
+
+.part4{
+    align-items: flex-start;
+}
+   }
+    @media(max-width:840px){
+        .container{
+            width: 740px;
+        }
+        
+        .heading h1{
+            font-weight: 900;
+            font-size: 25px;
+        }
+        .firstpart img{
+            height: 300px;
+        }
+        .heading{
+            gap: 20px;
+        }
+        .imaag{
+            height: 320px;
+            width: 220px;
+        }
+        .arr p{
+            font-size: 10px;
+        }
+        .arr img{
+            width: 15px;
+        }
+    }
+
+     @media(max-width:780px){
+        .container{
+            width: 670px;
+        }
+        .navbar h1{
+            font-size: 20px;
+            font-weight: 900;
+    }
+    .navbar h1 img{
+        height: 18px;
+    }
+    .arrivals{
+        padding:20px 0;
+   }
+   .imaag{
+            height: 300px;
+            width: 200px;
+        }
+        .text-part h1{
+            font-size: 15px;
+         }
+         .phone{
+            height: 380px;
+            width: 400px;
+        }
+}
+
+    @media(max-width:700px){
+        .container{
+            width: 620px;
+        }
+        .heading h1{
+            font-weight: 900;
+            font-size: 25px;
+        }
+        .logos img{
+            height: 20px;
+        }
+          .imaag{
+            height: 230px;
+            width: 180px;
+        }
+        .arr p{
+            font-size: 9px;
+        }
+        .arr img{
+            width: 13px;
+        }
+        .img1 h3{font-size: 12px;}
+        .text-part p{
+            font-size: 12px;
+         }
+         .alllogo img{
+            width: 80px;
+        }
+    }
+
+    @media(max-width:650px){
+        .container{
+            width:565px;
+        }
+        .heading h1{
+            font-weight: 800;
+            font-size: 23px;
+        }
+        .first-container img{
+            height: 240px;
+        }
+        .heading{
+            gap: 20px;
+        }
+        .imaag{
+            height: 200px;
+            width: 170px;
+    }
+    .phone{
+        height: 300px;
+        width: 300px;
+    }
+    .text-part h1{
+        font-size: 13px;
+     }
+     .text-part p{
+        font-size: 10px;
+     }
+     
+   
+    .part1,.part2,.part3,.part4{
+        font-size: 9px;
+    }
+    .part1 h1{
+        font-size: 17px;
+    }
+    .fifth-container{
+        padding: 50px 0;
+    }
+    ul{
+        gap: 14px;
+    }
+   
+
+}
+    @media(max-width:600px){
+            .container{
+                width:510px;
+            }
+            .heading h1{
+                font-size: 20px;
+            }
+            .first-container img{
+                height: 250px;
+            }
+            .heading{
+                gap: 13px;
+            }
+            .heading button{
+                width: 80px;
+                padding: 3px;
+            
+            }
+            .arrivals h1{
+                font-size: 18px;
+            }
+            .imaag{
+                height: 180px;
+                width: 150px;
+            }
+     .img1 h3{font-size: 10px;}
+     .img1 p{font-size: 7px;}
+     .fourth-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+        gap: 15px;
+       } 
+       .text-part h1{
+        font-size: 25px;
+     }
+     .phone{
+        height: 380px;
+        width: 400px;
+    }
+    .text-part p{
+        font-size: 15px;
+     }
+}
+
+
+
+    
+    @media(max-width:550px){
+        .container{
+            width:470px;
+        }
+        .heading h1{
+            font-size: 15px;
+        }
+        .heading p{
+            font-size: 13px;
+        }
+        .first-container img{
+            height: 210px;
+        }
+        .heading{
+            gap: 13px;
+        }
+        .imaag{
+            height: 180px;
+            width: 130px;
+        }
+        .text-part h1{
+            font-size: 22px;
+         }
+         .phone{
+            height: 360px;
+            width: 370px;
+        }
+        .text-part p{
+            font-size: 13px;
+         }
+       
+    }
+    @media(max-width:500px){
+        .container{
+            width:400px;
+        }
+        .heading button{
+            font-size: 10px;
+            padding: 1px;
+        
+        }
+        .heading{
+            gap: 10px;
+        }
+        .arrivals h1{
+            font-size: 16px;
+        }
+        .imaag{
+            height: 140px;
+            width: 110px;
+        }
+        .text-part h1{
+            font-size: 22px;
+         }
+         .phone{
+            height: 320px;
+            width: 320px;
+        }
+        .text-part p{
+            font-size: 13px;
+         }
+         .fifth-container{
+            padding: 30px 0;
+        }
+       
+       .fifth-container{
+        background-color: black;
+        width: 1263px;
+        /* text-wrap: wrap;
+        color: #fff; */
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+        padding: 20px 30px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        }
+        .fifth-container .part{
+            width: 100%;
+            text-align: center;
+    
+        }
+    }
+    @media(max-width:445px){
+        .container{
+            width:370px;
+        }
+       
+        .heading p{
+            font-size: 10px;
+        }
+        ul{
+            gap: 8px;
+        }
+.part1{
+        gap: 8px;
+       }
+       .part1 h1{
+        font-size: 10px;
+    }
+    }
+    @media(max-width:400px){
+        .container{
+            width:340px;
+        }
+        .first-container{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .first-container img{
+            height: 170px;
+            width: 170px;
+        }
+       
+        .heading p{
+            font-size: 12px;
+        }
+        .logos img{
+            height: 17px;
+        }
+        .logos{
+            padding: 15px;
+        }
+        .second-container{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+         }
+         .imaag{
+            height: 400px;
+            width: 300px;
+            
+        }
+        .img1 h3{
+            font-size: 17px;
+        }
+        .arr p{
+            font-size: 13px;
+        } 
+        .arr img{
+            width: 20px;
+        }
+        .third-part {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            text-wrap: wrap;
+         }
+         .third-part img{
+             width: 100%;
+             height: 100%;
+         }
+         .arrivals{
+            justify-content: center;
+        }
+        .first-container{
+            justify-content: center;
+        }
+        .alllogo img{
+            width: 40px;
+        }
+        .part1 h1{
+            font-size: 9px;
+        }
+        
+    }
+    @media(max-width:380px){
+        .container{
+            width:290px;
+        }
+        .imaag{
+            height: 270px;
+            width: 200px; 
+        }
+        .img1 h3{
+            font-size: 18px;
+        }
+        .arr p{
+            font-size: 10px;
+        }
+        .text-part h1{
+            font-size: 20px;
+         }
+         .phone{
+            height: 280px;
+            width: 280px;
+        }
+        .text-part p{
+            font-size: 10px;
+         }
+    }
+    
+    @media(max-width:320px){
+        .container{
+            width:240px;
+        }
+        .first-container img{
+            height: 140px;
+            width: 160px;
+        }
+        .logos img{
+            height: 14px;
+        }
+        .phone{
+            height: 200px;
+            width: 200px;
+        }
+        .text-part h1{
+            font-size: 15px;
+         }
+    } 
+ 
+
+
+
+
+
+
+
+
+
+
+
